@@ -1,0 +1,31 @@
+From aeaa1672bf8b68df9c7efa35317ab7ddd4ef0357 Mon Sep 17 00:00:00 2001
+From: Jose Luis Rivero <jrivero@osrfoundation.org>
+Date: Thu, 23 Mar 2023 18:20:47 +0100
+Subject: [PATCH 7/7] Manual change to new regexp
+
+---
+ debian/control.em | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/debian/control.em b/debian/control.em
+index dc350db..b472bf5 100644
+--- a/debian/control.em
++++ b/debian/control.em
+@@ -1,4 +1,4 @@
+-Source: @(Package.replace('-gz-','-gzgarden-'))
++Source: @(Package.replace('-gz','-gzgarden'))
+ Section: misc
+ Priority: optional
+ Maintainer: @(Maintainer)
+@@ -6,7 +6,7 @@ Build-Depends: debhelper (>= @(debhelper_version).0.0), @(', '.join(BuildDepends
+ Homepage: @(Homepage)
+ Standards-Version: 3.9.2
+ 
+-Package: @(Package.replace('-gz-','-gzgarden-'))
++Package: @(Package.replace('-gz','-gzgarden'))
+ Architecture: any
+ Depends: ${shlibs:Depends}, ${misc:Depends}, @(', '.join(Depends))
+ Conflicts: @(Package)
+-- 
+2.34.1
+

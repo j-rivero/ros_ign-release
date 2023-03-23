@@ -1,7 +1,7 @@
-From 4b18a39cdf36b6a64a733720b853bc8fdbbd6f1b Mon Sep 17 00:00:00 2001
+From 7400ea6891d38d8d7eb96ace75c11becee679a0e Mon Sep 17 00:00:00 2001
 From: Jose Luis Rivero <jrivero@osrfoundation.org>
 Date: Wed, 15 Mar 2023 18:46:19 +0100
-Subject: [PATCH 3/6] Revert changed done in HEAD~2. Made in the wrong
+Subject: [PATCH 3/7] Revert changed done in HEAD~2. Made in the wrong
  repository
 
 Signed-off-by: Jose Luis Rivero <jrivero@osrfoundation.org>
