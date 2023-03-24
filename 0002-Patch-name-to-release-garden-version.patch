@@ -1,4 +1,4 @@
-From ff84da730f31fceec4c18b63deea11934aaef3d5 Mon Sep 17 00:00:00 2001
+From 765dec32af1935139a0da45ed9be21e5fc16f05e Mon Sep 17 00:00:00 2001
 From: Jose Luis Rivero <jrivero@osrfoundation.org>
 Date: Wed, 22 Mar 2023 15:35:22 +0100
 Subject: [PATCH 2/3] Patch name to release garden version
