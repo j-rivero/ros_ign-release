@@ -1,7 +1,7 @@
-From 5aecdf7f896db436c648eb0f7e3f9590665c0102 Mon Sep 17 00:00:00 2001
+From 081a4e24fdfb03ba686f12846483f35f8f7ae83f Mon Sep 17 00:00:00 2001
 From: Jose Luis Rivero <jrivero@osrfoundation.org>
 Date: Thu, 23 Mar 2023 18:36:22 +0100
-Subject: [PATCH 4/4] Manual change to new regexp
+Subject: [PATCH 4/5] Manual change to new regexp
 
 ---
  debian/control.em | 4 ++--

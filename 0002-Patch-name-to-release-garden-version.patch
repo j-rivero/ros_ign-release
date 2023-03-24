@@ -1,7 +1,7 @@
-From d2633ac13a53fe1a96822777abd084e865c5794a Mon Sep 17 00:00:00 2001
+From 6acade4931368166e1c33ee6a3ea8ef0914dcd44 Mon Sep 17 00:00:00 2001
 From: Jose Luis Rivero <jrivero@osrfoundation.org>
 Date: Wed, 22 Mar 2023 15:35:27 +0100
-Subject: [PATCH 2/4] Patch name to release garden version
+Subject: [PATCH 2/5] Patch name to release garden version
 
 ---
  debian/changelog.em | 2 +-
