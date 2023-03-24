@@ -1,7 +1,7 @@
-From 95fb90edeafd16e6270b9399bdf2af16b5ec08b1 Mon Sep 17 00:00:00 2001
+From 7831811bb75c090780f43aa69a401c3b4a0c193b Mon Sep 17 00:00:00 2001
 From: Jose Luis Rivero <jrivero@osrfoundation.org>
 Date: Wed, 22 Mar 2023 15:35:03 +0100
-Subject: [PATCH 4/7] Export GZ_VERSION in rules file
+Subject: [PATCH 4/8] Export GZ_VERSION in rules file
 
 ---
  debian/rules.em | 1 +

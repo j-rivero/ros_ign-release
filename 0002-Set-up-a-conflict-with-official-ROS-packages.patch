@@ -1,7 +1,7 @@
-From 9ac8491d5111f7913c507997e045b4fb0be04e3b Mon Sep 17 00:00:00 2001
+From 3bdc5c5915b86d3d7efbc7d36e1c8484c09e63ce Mon Sep 17 00:00:00 2001
 From: Jose Luis Rivero <jrivero@osrfoundation.org>
 Date: Wed, 15 Mar 2023 18:42:31 +0100
-Subject: [PATCH 2/7] Set up a conflict with official ROS packages
+Subject: [PATCH 2/8] Set up a conflict with official ROS packages
 
 ---
  debian/control.em | 1 +
