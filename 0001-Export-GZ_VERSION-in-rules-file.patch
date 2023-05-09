@@ -1,4 +1,4 @@
-From 5f159f0424bc2855c58b37e924391aaa1e5955c1 Mon Sep 17 00:00:00 2001
+From 4f50a61c43f31191987b4dbb3ad48272dac37fc0 Mon Sep 17 00:00:00 2001
 From: Jose Luis Rivero <jrivero@osrfoundation.org>
 Date: Wed, 22 Mar 2023 15:35:20 +0100
 Subject: [PATCH 1/3] Export GZ_VERSION in rules file
