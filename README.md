@@ -1,3 +1,38 @@
+## ros_gz (iron) - 0.245.0-1003
+
+The packages in the `ros_gz` repository were released into the `iron` distro by running `/usr/bin/bloom-release --no-pull-request --rosdistro iron --track iron_gzgarden --override-release-repository-url https://github.com/j-rivero/ros_ign-release ros_gz` on `Wed, 14 Jun 2023 09:39:23 -0000`
+
+These packages were released:
+- `ros_gz`
+- `ros_gz_bridge`
+- `ros_gz_image`
+- `ros_gz_interfaces`
+- `ros_gz_sim`
+- `ros_gz_sim_demos`
+- `ros_ign`
+- `ros_ign_bridge`
+- `ros_ign_gazebo`
+- `ros_ign_gazebo_demos`
+- `ros_ign_image`
+- `ros_ign_interfaces`
+
+Version of package(s) in repository `ros_gz`:
+
+- upstream repository: https://github.com/gazebosim/ros_gz
+- release repository: https://github.com/ros2-gbp/ros_ign-release.git
+- rosdistro version: `0.245.0-1`
+- old version: `0.245.0-1002`
+- new version: `0.245.0-1003`
+
+Versions of tools used:
+
+- bloom version: `0.11.2`
+- catkin_pkg version: `0.5.2`
+- rosdep version: `0.22.2`
+- rosdistro version: `0.9.0`
+- vcstools version: `0.1.42`
+
+
 ## ros_gz (iron) - 0.245.0-1002
 
 The packages in the `ros_gz` repository were released into the `iron` distro by running `/usr/bin/bloom-release --no-pull-request --rosdistro iron --track iron_gzgarden --override-release-repository-url https://github.com/j-rivero/ros_ign-release ros_gz` on `Tue, 13 Jun 2023 13:11:54 -0000`
