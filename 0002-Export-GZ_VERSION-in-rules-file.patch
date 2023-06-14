@@ -1,0 +1,24 @@
+From 1399ba90d3b4e29532bf250e4c73d11b7e2e5441 Mon Sep 17 00:00:00 2001
+From: Jose Luis Rivero <jrivero@osrfoundation.org>
+Date: Wed, 14 Jun 2023 11:34:15 +0200
+Subject: [PATCH 2/4] Export GZ_VERSION in rules file
+
+---
+ debian/rules.em | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/debian/rules.em b/debian/rules.em
+index 14937f1..02e76fc 100755
+--- a/debian/rules.em
++++ b/debian/rules.em
+@@ -8,6 +8,7 @@
+ 
+ # Uncomment this to turn on verbose mode.
+ export DH_VERBOSE=1
++export GZ_VERSION=garden
+ export GZ_VERSION=https://github.com/j-rivero/ros_ign-release
+ # TODO: remove the LDFLAGS override.  It's here to avoid esoteric problems
+ # of this sort:
+-- 
+2.34.1
+

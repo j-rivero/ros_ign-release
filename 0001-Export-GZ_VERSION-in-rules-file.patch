@@ -1,0 +1,24 @@
+From b716af0dd7d3f2821f9aa7ae2fe25c442d104258 Mon Sep 17 00:00:00 2001
+From: Jose Luis Rivero <jrivero@osrfoundation.org>
+Date: Tue, 13 Jun 2023 21:21:20 +0200
+Subject: [PATCH 1/4] Export GZ_VERSION in rules file
+
+---
+ debian/rules.em | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/debian/rules.em b/debian/rules.em
+index 2ab7b14..14937f1 100755
+--- a/debian/rules.em
++++ b/debian/rules.em
+@@ -8,6 +8,7 @@
+ 
+ # Uncomment this to turn on verbose mode.
+ export DH_VERBOSE=1
++export GZ_VERSION=https://github.com/j-rivero/ros_ign-release
+ # TODO: remove the LDFLAGS override.  It's here to avoid esoteric problems
+ # of this sort:
+ #  https://code.ros.org/trac/ros/ticket/2977
+-- 
+2.34.1
+
