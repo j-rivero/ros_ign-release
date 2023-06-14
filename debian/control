@@ -1,0 +1,13 @@
+Source: ros-iron-ros-gzgarden
+Section: misc
+Priority: optional
+Maintainer: Louise Poubel <louise@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), ros-iron-ament-cmake, ros-iron-ament-lint-auto <!nocheck>, ros-iron-ament-lint-common <!nocheck>, ros-iron-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-iron-ros-gzgarden
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-iron-ros-gzgarden-bridge, ros-iron-ros-gzgarden-image, ros-iron-ros-gzgarden-sim, ros-iron-ros-gzgarden-sim-demos, ros-iron-ros-workspace
+Conflicts: ros-iron-ros-gz
+Description: Meta-package containing interfaces for using ROS 2 with Gazebo simulation.
