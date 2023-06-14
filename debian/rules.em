@@ -8,6 +8,7 @@
 
 # Uncomment this to turn on verbose mode.
 export DH_VERBOSE=1
+export GZ_VERSION=garden
 export GZ_VERSION=https://github.com/j-rivero/ros_ign-release
 # TODO: remove the LDFLAGS override.  It's here to avoid esoteric problems
 # of this sort:
